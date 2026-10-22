@@ -1,25 +1,78 @@
 aid: acadia-pharmaceuticals
+
 name: Acadia Pharmaceuticals
-description: 'Acadia Pharmaceuticals is a company surfaced via the API Evangelist harvest backlog (source:
-  vc-portfolio; backed by nea) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://acadia.com/s/homepage-og-image_Z16Vw7s.jpg
+
+description: 'Acadia Pharmaceuticals advances care for underserved neurological disorders and rare diseases. Since its founding, Acadia has been at the forefront of healthcare, developing innovative medicines to bring vital solutions to patients in need. The company focuses on scientific discovery and translating breakthroughs into meaningful treatments for conditions such as Parkinson’s disease, Alzheimer’s disease, and other neurodegenerative disorders.'
+
 url: https://raw.githubusercontent.com/api-evangelist/acadia-pharmaceuticals/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Biotechnology
+- Pharmaceuticals
+- Neurology
+- Healthcare
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- nea
+
 common:
+- type: Hosts
+  url: hosts/acadia-pharmaceuticals-hosts.yml
+- type: Vendors
+  url: vendors/acadia-pharmaceuticals-vendors.yml
+- type: TermsOfService
+  url: https://acadia.com/en-us/legal-policies/terms
+- type: PrivacyPolicy
+  url: https://acadia.com/en-us/legal-policies/privacy
+- type: Newsroom
+  url: https://acadia.com/en-us/media
+- type: Leadership
+  url: https://acadia.com/en-us/about/leadership
+- type: DomainSecurity
+  url: security/acadia-pharmaceuticals-domain-security.yml
 - type: Website
   url: https://acadia.com/en-us
+- type: Image
+  url: https://acadia.com/s/homepage-og-image_Z16Vw7s.jpg
+
+apis: []
+
+x-backed-by:
+- nea
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-22'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://acadia.com/en-us
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

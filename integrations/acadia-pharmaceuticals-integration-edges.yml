@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/acadia-pharmaceuticals/integrations
+- https://n8n.io/integrations/acadia-pharmaceuticals/
+- https://composio.dev/toolkits/acadia-pharmaceuticals
+- https://monid.ai/tools/acadia-pharmaceuticals
+checked:
+- https://composio.dev/toolkits/acadia-pharmaceuticals
+- https://monid.ai/tools/acadia-pharmaceuticals
+- https://n8n.io/integrations/acadia-pharmaceuticals/
+- https://zapier.com/apps/acadia-pharmaceuticals/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
